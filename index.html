@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I miei task</title>
+</head>
+<body>
+
+  <main>
+    <h1>I miei task</h1>
+
+    <!-- Benvenuto: esercizio 9.11 -->
+    <div id="benvenuto"></div>
+
+    <!-- Form per aggiungere task -->
+    <form id="form-task">
+      <input
+        type="text"
+        id="campo-task"
+        placeholder="Scrivi qui un task..."
+        autocomplete="off"
+      >
+      <button type="submit">Aggiungi</button>
+    </form>
+
+    <!-- Lista generata da JavaScript -->
+    <ul id="lista"></ul>
+
+    <!-- Contatori -->
+    <p id="info"></p>
+
+    <!-- Messaggio reattivo: esercizio 9.12 -->
+    <p id="messaggio"></p>
+
+    <!-- Pulsante per eliminare i completati -->
+    <div id="azioni"></div>
+
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

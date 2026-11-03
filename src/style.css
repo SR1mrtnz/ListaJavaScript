@@ -1,0 +1,123 @@
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f5f7;
+  color: #222;
+  margin: 0;
+  padding: 40px 16px;
+}
+
+main {
+  box-sizing: border-box;
+  max-width: 460px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 24px 28px 28px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .08);
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0 0 18px;
+}
+
+/* Form */
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 9px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: #2a9d8f;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 4px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+/* Task completato */
+li.fatto .titolo {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.titolo {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+/* Pulsante elimina singolo task */
+.elimina {
+  background: #eee;
+  color: #a33;
+  border-radius: 5px;
+  padding: 3px 9px;
+  font-size: 14px;
+}
+
+/* Benvenuto */
+#benvenuto {
+  margin-bottom: 16px;
+}
+
+#benvenuto p {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Contatori */
+#info {
+  margin: 16px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Messaggio reattivo */
+#messaggio {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Azioni aggiuntive */
+#azioni {
+  margin-top: 12px;
+}
+
+#pulisci {
+  background: #eee;
+  color: #a33;
+}
+
+button:hover {
+  opacity: 0.9;
+}
